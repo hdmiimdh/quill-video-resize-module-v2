@@ -7,9 +7,9 @@ import VQuill from 'quill';
 const Quill = window.Quill || VQuill;
 
 const Parchment = Quill.imports.parchment;
-const FloatStyle = new Parchment.Attributor.Style('float', 'float')
-const MarginStyle = new Parchment.Attributor.Style('margin', 'margin')
-const DisplayStyle = new Parchment.Attributor.Style('display', 'display')
+const FloatStyle = new Parchment.StyleAttributor('float', 'float');
+const MarginStyle = new Parchment.StyleAttributor('margin', 'margin');
+const DisplayStyle = new Parchment.StyleAttributor('display', 'display');
 
 export class Toolbar extends BaseModule {
   onCreate () {

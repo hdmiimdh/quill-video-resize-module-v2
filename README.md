@@ -1,5 +1,7 @@
 # Quill VideoResize Module
 
+This is a Fork from [quill-video-resize-module](https://github.com/Y-WeCode/quill-video-resize-module)
+
 A module for Quill rich text editor to allow videos to be resized.
 Lazily adaptated from [kensnyder/quill-image-resize-module](https://github.com/kensnyder/quill-image-resize-module)
 
