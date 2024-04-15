@@ -51,8 +51,8 @@ export class DisplaySize extends BaseModule {
 
   getCurrentSize () {
     return [
-      this.vid.width,
-      this.vid.height
+      this.vid.width || this.vid.getBoundingClientRect().width,
+      this.vid.height || this.vid.getBoundingClientRect().height
     ]
   }
 }

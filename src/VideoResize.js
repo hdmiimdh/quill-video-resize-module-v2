@@ -94,7 +94,7 @@ export default class VideoResize {
 
   handleClick (evt) {
     if (evt.target === this.quill.root) {
-      const videos = this.quill.root.querySelectorAll('iframe')        
+      const videos = this.quill.root.querySelectorAll('iframe')
       for (let i = 0; i <videos.length; ++i) {
         const rect = videos[i].getBoundingClientRect()
         if (evt.clientX < rect.x) {
