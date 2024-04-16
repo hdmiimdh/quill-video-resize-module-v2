@@ -166,7 +166,7 @@ export default class VideoResize {
   }
 
   hideOverlay () {
-    if (!this.overlay) {
+    if (!this.overlay || !this.quill.root.parentNode) {
       return
     }
 
